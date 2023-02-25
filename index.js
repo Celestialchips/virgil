@@ -2,7 +2,7 @@ require("dotenv").config({ path: "../.env" });
 const org = process.env['org'];
 const virgil = process.env['Virgil'];
 const OpenAIapi = process.env['OpenAIAPI'];
-
+// comment me
 
 const { Client, GatewayIntentBits } = require('discord.js');
 
